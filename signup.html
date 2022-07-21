@@ -42,8 +42,16 @@
         form input {
             width: 95%;
             padding: 6px 12px;
-height: 30px;
+            height: 30px;
 
+        }
+
+        form>input:last-child {
+            background-color: #f2603e;
+            width: 102%;
+            cursor: pointer;
+            height: 50px;
+            margin-bottom: 16px;
         }
 
         #fix3 {
@@ -68,27 +76,33 @@ height: 30px;
 
         #signup3 form {
 
-            margin: auto;
+
             width: 80%;
         }
 
-        form>input:last-child {
-            background-color: #f2603e;
-            width: 102%;
-        }
+
 
         #gsign {
-
             border: 1px solid #007bff;
             display: flex;
-            width: 50%;
-            flex-direction: row;
-            justify-content: space-evenly;
-            align-items: center;
+            cursor: pointer;
+            justify-content: center;
+            color: white;
+           
+            width: 82%;
         }
 
-        #gsign div:last-child {
-        background-color: #007bff;
+        #gsign a:last-child {
+            background-color: #007bff;
+            width: 100%;
+            padding: 10px;
+
+            text-align: center;
+
+        }
+
+        #gsign a:first-child {
+            padding: 10px;
 
         }
 
@@ -133,7 +147,7 @@ height: 30px;
             line-height: 10px;
             text-align: center;
             font-size: 16px;
-          
+            margin-top: 40px;
         }
     </style>
 </head>
@@ -171,13 +185,13 @@ height: 30px;
 
             </form>
             <div id="gsign">
-                <div>
+                <a>
                     <img src="https://d2p078bqz5urf7.cloudfront.net/cloud/dev/assets/img/google-favicon.png" alt="err"
                         height="25px">
-                </div>
-                <div>
-                    <a>Sign Up with G Suite</a>
-                </div>
+                </a>
+                <a>
+                    Sign Up with G Suite
+                </a>
             </div>
             <div class="last3">
                 <p> Forgot <a href="/forgot-password">Password?</a> </p>
