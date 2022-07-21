@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #body3 {
+            font-family: 'Nunito Sans', sans-serif;
+            margin: 0px;
+
+        }
+
+        #container3 {
+            display: flex;
+
+            min-height: 730px;
+            max-height: 1800px;
+        }
+
+        h5 {
+            font-size: 20px;
+            font-weight: 500;
+            margin-top: 0;
+            line-height: 24px;
+            text-align: center;
+        }
+
+        form label {
+            display: flex;
+            margin-top: 20px;
+            margin-bottom: 16px;
+        }
+
+        form input {
+            width: 95%;
+            padding: 6px 12px;
+
+
+        }
+
+        #fix3 {
+            width: 67%;
+            height: auto;
+            background-image: url(/img/p.png);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+
+        }
+
+        #signup3 {
+            width: 33%;
+           
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+
+        }
+
+        #signup3 form {
+
+            margin: auto;
+            width: 80%;
+        }
+
+        form>input:last-child {
+            background-color: #f2603e;
+            width: 102%;
+        }
+
+        #gsign {
+
+            border: 1px solid #007bff;
+            display: flex;
+            width: 50%;
+        }
+
+        #gsign a:last-child {
+            background-color: #007bff;
+        }
+
+        .fiximg3 {
+
+            padding: 20px;
+            background-image: linear-gradient(135deg, #2856b7 10%, #339ad4 100%);
+            border-radius: 4px;
+            margin: 50px;
+            height: 135px;
+            width: 716px;
+        }
+
+        .media3 {
+            display: flex;
+            -ms-flex-align: start;
+            align-items: flex-start;
+
+        }
+
+        .avtar3 {
+            background-color: #5f7eb7;
+            border-radius: 50px;
+            width: 4.5rem;
+            height: 4.5rem;
+            text-align: center;
+            display: flex;
+            align-items: flex-end;
+
+        }
+
+        .media-body {
+            display: flex;
+        }
+
+        .avatar3 img {
+            border-radius: 50%;
+            margin: auto;
+        }
+
+        .last3 {
+            line-height: 21px;
+            text-align: center;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body id="body3">
+
+    <div id="container3">
+
+        <div id="signup3">
+
+            <div>
+                <img src="/img/p1.png" alt="err" width="200" height="30" style="margin: 32px 124px 16px 124px ;">
+                <h5 class="text-center mb-4">Get Started for FREE</h5>
+            </div>
+            <form>
+
+
+                <label>Name</label>
+                <input type="text" placeholder="Name">
+
+
+                <label>Username</label>
+                <input type="text" placeholder="Work Email">
+
+
+                <label>Website URL</label>
+                <input type="text" placeholder="Website Url">
+
+
+                <label>Password</label>
+                <input type="text" placeholder="Password">
+                <label></label>
+                <input type="button" value="SIGN UP">
+
+
+            </form>
+            <div id="gsign">
+                <div href="/oauth?">
+                    <img src="https://d2p078bqz5urf7.cloudfront.net/cloud/dev/assets/img/google-favicon.png" alt="err"
+                        height="25px">
+                </div>
+                <div>
+                    <button>Sign Up with G Suite</button>
+                </div>
+            </div>
+            <div class="last3">
+                <p> Forgot <a href="/forgot-password">Password?</a> </p>
+                <p> Already have an account? <a href="/login">Sign In</a> </p>
+                <a href="https://www.engagebay.com/legal/privacy-policy"> Privacy Policy </a>
+            </div>
+        </div>
+        <div id="fix3">
+            <div class="fiximg3">
+                <div class="media3">
+                    <div class="avatar3">
+                        <img src="https://cdn5.engagebay.com/img/testimonials/ivana.jpeg" alt="Image">
+                    </div>
+                    <div class="media-body">
+                        <p>
+                            This product is just like HubSpot. I cannot believe the price, so far I've used it for 2
+                            weeks and those guys have added 2 features more.
+                        </p>
+                        <p>
+                            <i>- Ivana B, Founder, New Marketing Agency</i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
