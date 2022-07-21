@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script
+       src="https://kit.fontawesome.com/24c494a6b6.js"
+       crossorigin="anonymous"
+     ></script>
+    <style>
+        #upper_box-4{
+            text-align: center;
+            height: 350px;
+            background-color: #335EEA;
+            padding-top: 40px;
+            /* color: white; */
+        }
+        #upper_box-4>h1{
+            font-size:40px;
+            color: white;
+            font-weight: 300;
+        }
+        #upper_box-4>h2{
+            color: white;
+            font-weight: 300;
+            /* font-size: 30px; */
+            margin: 0px 20% 0px 20%;
+        }
+        #inner_box-4{
+            display: flex;
+            justify-content: space-around;
+            width: 70%;
+            margin: auto;
+            height: 120px;
+            /* border: 1px solid red; */
+            background-color: white;
+            gap: 30px;
+            border-radius: 30px;
+            padding-right: 40px;
+            padding-left: 40px;
+            margin-top: 40px;
+        }
+        #inner_box-4>div{
+            /* border: 2px solid green; */
+            border-radius: 100px;
+            width: 30%;
+            height: 50%;
+            margin-top: 30px;
+            cursor: pointer;  
+        }
+        #inner_box-4>div:hover{
+            background-color: #D7E2FE;
+        }
+        #inner_box-4>div>h2{
+            margin-top: 5px;
+            color: #757694;
+            font-weight: 500;
+        }
+        #inner_box-4>div>p{
+            margin-top: -17px;
+            color: #757694;
+        }
+        #inner_box-4>div>h2:hover{
+            color: #6BA1F3;
+        }
+        #inner_box-4>div>p:hover{
+            color: #6BA1F3;
+        }
+        #short_nav-4{
+            display: flex;
+            justify-content: space-around;
+            width: 40%;
+            margin: auto;
+            height: 50px;
+            /* border: 1px solid red; */
+            background-color:#37C1F9;
+            gap: 20px;
+            border-radius: 25px;
+            padding-right: 20px;
+            padding-left: 20px;
+           margin-top: -25px;
+            font-weight: 100;
+        }
+        #short_nav-4>div{
+            border-radius: 50px;
+            cursor: pointer;  
+            padding-right: 20px;
+            padding-left: 20px;
+            /* border: 1px solid green; */
+        }
+        #short_nav-4>div>p{
+            font-weight: 200;
+            margin-top: 15px;
+            color:#94E7FD;
+            /* color: white; */
+        }
+        #cat_div-4{
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+            width: 80%;
+            margin: auto;
+            /* height: 500px; */
+            /* border: 1px solid red; */
+            margin-top: 40px;
+        }
+        #cat_div-4>div{
+            /* border: 1px solid green; */
+            width: 40%;
+            background-color: #E7F9FF;
+            padding-left: 60px;
+        }
+        #cat_div-4>div:nth-child(3){
+            background-color: #F5FDDB;
+        }
+        #cat_div-4>div>h3{
+            font-weight: 50;
+        }
+        .bold-4{
+            font-weight: 500;
+            /* border: 1px solid red; */
+            width: 30%;
+            margin: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+            padding: 5px 0px 5px 0px;
+            /* font-weight: 500; */
+            background-color: #CEF1FC;
+
+        }
+        .center-4{
+            text-align: center;
+            margin-left: -35%;
+        }
+        .center-4>h1+p{
+            margin-top: -50px;
+            margin-bottom: 40px;
+            color: #1550AF;
+        }
+        .bold-4+h1{
+            color: #1550AF;
+            font-weight: 100;
+            margin-right: 50px;
+           
+        }   
+        .center-4>h1+h1{
+            font-size: 60px;
+            font-weight: 400;
+            margin-top: -70px;
+            color: #0050AF;
+        }
+        .btn-4{
+            padding: 15px 25px 15px 25px;
+            margin-left: -20px;
+            margin-bottom: 20px;
+            color: white;
+            background-color: #20BDEE;
+            border: none;
+            border-radius: 5px;
+            font-weight: 600;
+            font-size: 15px;
+            margin-top: 50px;
+        }
+        .btn-4:hover{
+            cursor: pointer;
+            background-color: #37C1F9;
+        }
+        .bold-4+.adjust-4-1{
+            margin-right: 110px;
+        }
+        .adjust-4-1+.adjust-4-2{
+           /* margin-left: 30px; */
+           margin-right: -50px;
+        }
+        .bold-4-green+.adjust-4-1-green{
+            margin-right: 120px;
+            color: #83A00D;
+        }
+        .adjust-4-1-green+.adjust-4-2-green{
+           margin-left: 40px;
+           color: #83A00D;
+        }
+        .adjust-4-2-green+.adjust-4-3-green{
+            color: #83A00D;
+        }
+        .bold-4-green{
+            background-color:#E4F3B3; 
+            font-weight: 500;
+            /* border: 1px solid red; */
+            width: 30%;
+            margin: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+            padding: 5px 0px 5px 0px;
+            /* font-weight: 500; */
+        }
+        .btn-4-green{
+            padding: 15px 25px 15px 25px;
+            margin-left: -20px;
+            margin-bottom: 20px;
+            color: white;
+            background-color: #A2CD00;
+            border: none;
+            border-radius: 5px;
+            font-weight: 600;
+            font-size: 15px;
+            margin-top: 110px;
+        }
+        .btn-4-green:hover{
+            background-color:  #BBDC42;
+            cursor: pointer;
+        }
+        #girl-box-4{
+            display: flex;
+            /* border: 1px solid red; */
+            /* height: 455px; */
+            width: 80%;
+            margin: auto;
+            margin-top: 60px;
+            justify-content: space-between;
+        }
+        #girl-box-4>div{
+            /* border: 1px solid green; */
+            width:40%;
+        }
+        #girl-box-4>div:nth-child(2){
+            width:70%;
+            padding: 0px 5% 0px 5%;
+            font-weight: 100;
+            background-color: #1B2A4E;
+            color: white;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        #girl-box-4>div>p{
+            margin-top: -10px;
+            padding-bottom: 30px;
+        }
+        #girl-box-4>div>h1{
+            font-weight:bolder;
+            padding-top: 26px;
+            font-size: 29px;
+            line-height: 40px;
+        }
+        .img-4{
+            width: 100%;
+            height: auto;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="upper_box-4">
+        <h1>Get the Whole Stack, or Just the Pieces you Need</h1>
+        <h2>Completely FREE Migration Service from Any Other Platform. No Hassles.</h2>
+        <div id="inner_box-4">
+            <div>
+                <h2>All-in-One</h2>
+                <p>Starts at $11.9 USD</p>
+            </div>
+            <div>
+                <h2>Marketing</h2>
+                <p>Starts at $10.39 USD</p>
+            </div>
+            <div>
+                <h2>CRM & Sales Bay</h2>
+                <p>Starts at $10.39 USD</p>
+            </div>
+            <div>
+                <h2>Service Bay</h2>
+                <p>Free Help Desk</p>
+            </div>
+        </div>
+    </div>
+    <div id="short_nav-4">
+        <div>
+            <p>Monthly</p>
+        </div>
+        <div>
+            <p>Yearly (10% off)</p>
+        </div>
+        <div>
+            <p>Beinnial (20% off)</p> 
+        </div> 
+    </div>
+    <div id="cat_div-4">
+        <div>
+           <div class="center-4">
+                <div class="bold-4">
+                    FREE
+                </div>
+                <h1>$</h1>
+                <h1>0</h1>
+                <p>per user / month</p>
+           </div>
+            <h3>500 Contacts</h3>
+            <h3>Email Marketing</h3>
+            <h3>Autoresponders</h3>
+            <h3>Email Broadcaste</h3>
+            <h3>Sequences</h3>
+            <h3>Lead Grabbers</h3>
+            <h3>Landing Pages</h3>
+            <h3>CRM</h3>
+            <h3>HelpDesk</h3>
+            <h3>Live Chat</h3> <br> <br> <br>
+            <button class="btn-4">SIGN UP NOW   &nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div>
+            <div class="center-4">
+                 <div class="bold-4">
+                    BASIC
+                 </div>
+                 <h1 class="adjust-4-1">$</h1>
+                 <h1 class="adjust-4-2">14.99</h1>
+                 <p>per user / month</p>
+            </div>
+             <h3>1,000 Contacts</h3>
+             <h3>Email Templates</h3>
+             <h3>Web Pop-ups</h3>
+             <h3>Landing Page Builder</h3>
+             <h3>Lead Scroing</h3>
+             <h3>SMS Marketing</h3>
+             <h3>3rd Party Integrations</h3>
+             <h3>Social Suits</h3>
+             <h3>Tag Manager</h3>
+             <br> <br> <br> <br> <br>
+             <button class="btn-4">SIGN UP NOW   &nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+         </div>
+        <div>
+            <div class="center-4">
+                <div class="bold-4-green">
+                   GROWTH
+                </div>
+                <h1 class="adjust-4-1-green">$</h1>
+                <h1 class="adjust-4-2-green">49.99</h1>
+                <p class="adjust-4-3-green">per user / month</p>
+           </div>
+            <h3>10,000 Contacts</h3>
+            <h3>Marketing Automation</h3>
+            <h3>Push Notifications</h3>
+            <h3>Site Messages</h3>
+            <h3>Broadcast A/B Testing</h3>
+            <h3>Custom Domain</h3>
+            <h3>Call Records</h3>
+            <h3>Service Automation</h3>
+            <h3>Products</h3>
+            <h3>Proposals</h3>
+            <button class="btn-4-green">SIGN UP NOW   &nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div>
+            <div class="center-4">
+                <div class="bold-4">
+                   PRO
+                </div>
+                <h1 class="adjust-4-1">$</h1>
+                <h1 class="adjust-4-2">99.99</h1>
+                <p>per user / month</p>
+           </div>
+            <h3>Unlimited Contacts</h3>
+            <h3>Marketing Automation</h3>
+            <h3>Web Analytics</h3>
+            <h3>Proposal Analytics</h3>
+            <h3>SSO</h3>
+            <h3>Role Management</h3>
+            <h3>Goals</h3>
+            <h3>Custom Reporting</h3>
+            <h3>Dedicated Account Manager</h3>
+            <h3>Uptime SLA</h3>
+            <h3>Phone Support</h3>
+            <button class="btn-4">SIGN UP NOW   &nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+    <!-- *************Girl Box************ -->
+    <div id="girl-box-4">
+        <div> <img  class="img-4"src="https://cdn5.engagebay.com/new/assets/img/lilahbulock.png" alt=""></div>
+        <div>
+           <h1> Engagebay has got to be the most powerful all-in-one tool for small businesses you just dont get this level of features with many tools(and trust me when i say i tried so many) its even difficult to calculate how many essential business tools and software your effectively replacing with just one software</h1>
+            <h3>Lilach Bullock</h3>  
+            <p>Business Coach | International Speaker | Top Women Social Media Influencer</p>     
+        </div>
+    </div>
+</body>
+</html>
