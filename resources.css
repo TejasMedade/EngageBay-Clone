@@ -212,6 +212,7 @@
     width:100%;
     
     
+    
 
 }
 #b2-5>button+button{
@@ -226,9 +227,9 @@
     width:80%;
     margin:auto;
     
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap:110px;
+    display: flex;
+   
+    /* gap:110px; */
     
     justify-content: space-between;
     margin-top:30px;
@@ -237,6 +238,11 @@
 
     
     
+}
+#footer-5>div{
+    width:23%;
+    /* border:1px  solid red; */
+   text-align: justify;
 }
 #logo-5{
     width:70px;
