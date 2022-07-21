@@ -263,12 +263,15 @@
    font-size: 13px;
     font-family: Poppins,sans-serif;
     line-height: 19.5px;
-    color:#6b6275;
+    color:#817b87;
     width:262px;
     height:19px;
 
     
     
+}
+#footer-5 a:hover{
+    color:#4d4c4f
 }
 #footer-5 p{
    
