@@ -34,17 +34,22 @@
             margin-bottom: 16px;
         }
 
+        form input:focus {
+            outline-color: #007bff;
+
+        }
+
         form input {
             width: 95%;
             padding: 6px 12px;
-
+height: 30px;
 
         }
 
         #fix3 {
             width: 67%;
             height: auto;
-            background-image: url(/img/p.png);
+            background-image: url("img/p.png");
             background-size: 100% 100%;
             background-repeat: no-repeat;
 
@@ -52,7 +57,7 @@
 
         #signup3 {
             width: 33%;
-           
+
             margin: auto;
             display: flex;
             flex-direction: column;
@@ -77,10 +82,14 @@
             border: 1px solid #007bff;
             display: flex;
             width: 50%;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
         }
 
-        #gsign a:last-child {
-            background-color: #007bff;
+        #gsign div:last-child {
+        background-color: #007bff;
+
         }
 
         .fiximg3 {
@@ -121,9 +130,10 @@
         }
 
         .last3 {
-            line-height: 21px;
+            line-height: 10px;
             text-align: center;
-            font-size: 14px;
+            font-size: 16px;
+          
         }
     </style>
 </head>
@@ -135,7 +145,7 @@
         <div id="signup3">
 
             <div>
-                <img src="/img/p1.png" alt="err" width="200" height="30" style="margin: 32px 124px 16px 124px ;">
+                <img src="img/p1.png" alt="err" width="200" height="30" style="margin: 32px 124px 16px 124px ;">
                 <h5 class="text-center mb-4">Get Started for FREE</h5>
             </div>
             <form>
@@ -161,12 +171,12 @@
 
             </form>
             <div id="gsign">
-                <div href="/oauth?">
+                <div>
                     <img src="https://d2p078bqz5urf7.cloudfront.net/cloud/dev/assets/img/google-favicon.png" alt="err"
                         height="25px">
                 </div>
                 <div>
-                    <button>Sign Up with G Suite</button>
+                    <a>Sign Up with G Suite</a>
                 </div>
             </div>
             <div class="last3">
