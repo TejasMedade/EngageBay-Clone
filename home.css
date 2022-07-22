@@ -47,13 +47,14 @@
 #email>input {
     border: none;
     font-size: 20px;
+    padding-left: 20px;
     background-color: transparent;
 }
 
 #email>:last-child {
     background-color: #ff7342;
-    border-radius: 20px;
-    padding: 15px;
+    border-radius: 30px;
+    padding: 10px 25px;
     color: white;
 }
 
@@ -69,18 +70,22 @@
 #check_list>div {
     display: flex;
     align-items: center;
+    gap: 10px;
     font-size: 18px;
+}
+.fa-circle-check{
+    color: #6639b3;
 }
 
 .background_svg {
-    width: 75%;
+    width: 80%;
 }
 
 #tags {
     width: 70%;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     margin: 40px auto;
 }
 
@@ -107,7 +112,7 @@
 
 #container-2 {
     display: grid;
-    width: 70%;
+    width: 80%;
     margin: auto;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
@@ -121,6 +126,12 @@
     border: 1px solid rgb(196, 189, 189);
     border-radius: 20px;
 }
+.top{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    column-gap: 10%;
+}
 
 .card_head {
     font-size: 20px;
@@ -129,7 +140,7 @@
 }
 
 .top>img {
-    width: 40%;
+    width: 25%;
 }
 
 .top>p+p {
@@ -149,8 +160,15 @@
 }
 
 .bottom>div {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 10px;
+}
+.bottom>div>div{
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 .bottom>div>img {
@@ -197,7 +215,7 @@
 
 #views {
     text-align: center;
-    width: 70%;
+    width: 90%;
     margin: 50px auto;
 }
 
@@ -209,24 +227,50 @@
 }
 
 #tabs {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
     margin: 70px auto;
-    gap: 50px 30px;
+    column-gap: 40px;
+    flex-wrap: wrap;
 }
 
 #tabs>p {
     font-weight: bold;
-    font-size: 20px;
-    padding: 20px 0px;
+    font-size: 25px;
+    padding: 10px 0px;
 }
 #views+hr{
     width: 70%;
     margin: auto;
 }
+#view_division{
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: repeat(2,1fr);
+    align-content: center;
+    align-items: center;
+    gap: 40px;
+}
+#image_art{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e1ffff;
+    width: 90%;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 60%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 20%;
+    transform: skewX(-20deg);
+}
+#image_art>img{
+    width: 90%;
+    transform: skewX(20deg);
+}
 #division{
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
 #division>h1{
@@ -302,3 +346,176 @@
     font-style: italic;
 
 }
+#service>h1{
+    text-align: center;
+    margin: 50px auto;
+}
+#service>p{
+    text-align: center;
+    color: #7b85a2;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+#service_card{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 20px;
+
+}
+#service_card>div{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f5f7fb;
+    border-radius: 20px;
+    padding: 10px 0;
+    text-align: center;
+}
+#service_card>div>img{
+    width: 50%;
+}
+#service_card>div>p{
+    font-weight: 500;
+}
+#getemail2{
+    background-color: #f5f7fb;
+    margin: 30px 0;
+    padding: 70px 0;
+    text-align: center;
+}
+#getemail2>p{
+    font-weight: bold;
+    font-size: 25px;
+    margin: auto;
+}
+#getemail2>p+p{
+    margin: 20px auto;
+    color: #9449fb;
+    font-weight: bold;
+    font-size: 30px;
+}
+#email2 {
+    border: 2px solid #ff7342;
+    border-radius: 50px;
+    width: 650px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(223, 182, 100, 0.2) 0px 2px 8px 0px;
+}
+
+#email2>input {
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+#email2>:last-child {
+    background-color: #ff7342;
+    border-radius: 20px;
+    padding: 15px;
+    color: white;
+}
+
+
+#check_list2 {
+    width: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+
+}
+.two{
+    margin-left: -100px;
+    width: 2300px;
+}
+
+#check_list2>div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+}
+#mainslider{
+    display: flex;
+    width: 4000px;
+    overflow: hidden;
+    animation: slide 15s linear infinite;
+}
+#mainslider:hover{
+    animation-play-state: paused;
+}
+#brand_slider{
+    text-align: center;
+    overflow: hidden;
+}
+#brand_slider>h1{
+    font-size: 30px;
+    margin: 20px auto;
+}
+#brand_slider>p{
+    font-size: 20px;
+    margin: 20px auto;
+    color: #7b85a2;
+}
+.logoslide{
+    display: grid;
+    row-gap: 40px;
+    width: 2000px;
+    margin: 50px auto;
+}
+.logoslide>div{
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.logoslide>div>div{
+    padding: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.logoslide>div>div>img{
+    width: 50px;
+}
+@keyframes slide {
+    0%{
+       
+    }
+    100%{
+        margin-left: -2000px;
+    }
+}
+#seemore{
+    padding: 15px 40px;
+    margin: 50px auto;
+    color: #6639b3;
+    background-color: transparent;
+    border: 1px solid#6639b3;
+    border-radius: 10px;
+    font-size: 18px;
+}
+#seemore:hover{
+    background-color: #6639b3;
+    color: white;
+}
+
+
+
+/* @media all (max-width : 14450) {
+    
+} */
+
