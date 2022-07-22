@@ -44,14 +44,17 @@
             padding: 6px 12px;
             height: 30px;
             /* border-color: #eae7e6; */
+
         }
 
-        form>input:last-child {
+        form>button {
             background-color: #f2603e;
             width: 102%;
             cursor: pointer;
             height: 50px;
             margin-bottom: 16px;
+            color:white;
+            border-color: transparent;
         }
 
         #fix3 {
@@ -96,9 +99,7 @@
             background-color: #007bff;
             width: 100%;
             padding: 10px;
-
             text-align: center;
-
         }
 
         #gsign a:first-child {
@@ -109,28 +110,18 @@
         .fiximg3 {
 
             padding: 20px;
-            background-image: linear-gradient(135deg, #2856b7 10%, #339ad4 100%);
+            background-image: linear-gradient(135deg, #2856b7 10%, #2496d8 100%);
             border-radius: 4px;
             margin: 50px;
             height: 135px;
             width: 716px;
+            color: white;
         }
 
         .media3 {
             display: flex;
-            -ms-flex-align: start;
-            align-items: flex-start;
 
-        }
 
-        .avtar3 {
-            background-color: #5f7eb7;
-            border-radius: 50px;
-            width: 4.5rem;
-            height: 4.5rem;
-            text-align: center;
-            display: flex;
-            align-items: flex-end;
 
         }
 
@@ -166,21 +157,21 @@
 
 
                 <label>Name</label>
-                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Name" id="name" required>
 
 
                 <label>Username</label>
-                <input type="text" placeholder="Work Email">
+                <input type="text" placeholder="Work Email" id="email" required>
 
 
                 <label>Website URL</label>
-                <input type="text" placeholder="Website Url">
+                <input type="text" placeholder="Website Url" id="web" required>
 
 
                 <label>Password</label>
-                <input type="text" placeholder="Password">
+                <input type="text" placeholder="Password" id="pass" required>
                 <label></label>
-                <input type="button" value="SIGN UP">
+                <button>SIGN UP</button>
 
 
             </form>
@@ -190,12 +181,12 @@
                         height="25px">
                 </a>
                 <a>
-                    Sign Up with G Suite
+                    SIGN UP WITH G SUITE
                 </a>
             </div>
             <div class="last3">
                 <p> Forgot <a href="/forgot-password">Password?</a> </p>
-                <p> Already have an account? <a href="/login">Sign In</a> </p>
+                <p> Already have an account? <a href="login.html">Sign In</a> </p>
                 <a href="https://www.engagebay.com/legal/privacy-policy"> Privacy Policy </a>
             </div>
         </div>
@@ -210,8 +201,11 @@
                             This product is just like HubSpot. I cannot believe the price, so far I've used it for 2
                             weeks and those guys have added 2 features more.
                         </p>
+
+                    </div>
+                    <div>
                         <p>
-                            <i>- Ivana B, Founder, New Marketing Agency</i>
+                            - Ivana B, Founder, New Marketing Agency
                         </p>
                     </div>
                 </div>
@@ -225,3 +219,5 @@
 </body>
 
 </html>
+
+<script src="signup.js" type="module"></script>
