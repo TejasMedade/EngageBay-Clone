@@ -16,17 +16,17 @@ let email2 = ()=>{
     <p>Simplify Marketing, Sales, & Support with the best free</p>
     <p>All-In-One CRM software</p>
     <div id="email2">
-        <input type="email" placeholder="Your email addres">
+        <input type="email" placeholder="Your email address">
         <input type="submit" value="Get Started">
     </div>
     <div id="check_list2">
         <div>
             <i class="fa-solid fa-circle-check"></i>
-            <p>Fre for 15 users</p>
+            <p>Free for 15 users</p>
         </div>
         <div>
             <i class="fa-solid fa-circle-check"></i>
-            <p>No credit card requird</p>
+            <p>No credit card required</p>
         </div>
     </div>
  
@@ -362,4 +362,4 @@ let testimonial = ()=>{
 </div>`
 }
 
-export {brandsstrip , email2 , review_tags , logoslider,services,testimonial};
+ export { email2 , review_tags };
