@@ -347,4 +347,19 @@ let services = ()=>{
 </div>`
 }
 
-export {brandsstrip , email2 , review_tags , logoslider,services};
+let testimonial = ()=>{
+    return `<div id="testimonials">
+    <h1>Client Testimonials</h1>
+    <div class="back-dot">
+        <img src="https://cdn5.engagebay.com/img/testimonials/shawn.jpeg" alt="">
+        <p>The software is easy to set up and implement. I feel EngageBay is quickly becoming a marketing
+            automation
+            competitor to the premium SAAS offerings. EngageBay's customer support has been very responsive and
+            helped me resolve an implementation issue almost immediately.</p>
+        <h1>Shawn L.</h1>
+        <p>Marketing Manager, List Biological Laboratories, Inc</p>
+    </div>
+</div>`
+}
+
+export {brandsstrip , email2 , review_tags , logoslider,services,testimonial};
