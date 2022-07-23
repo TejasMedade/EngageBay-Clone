@@ -30,7 +30,7 @@
         grid-template-columns: 1fr
     }
     #container-2{
-        width: 80%;
+        width: 70%;
     }
     #tags {
         width: 80%;
@@ -59,7 +59,7 @@
 }
 #container-2{
     grid-template-columns: 1fr;
-    width: 90%;
+    width: 80%;
 }
 #tabs{
     width: 90%;
@@ -99,3 +99,5 @@
         justify-content: space-evenly;
     }
 }
+
+
