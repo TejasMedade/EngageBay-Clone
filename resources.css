@@ -319,10 +319,12 @@
         display: grid;
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: auto;
+        margin: auto;
         
     }
     #cont-5>div{
         margin-bottom: -30px;
+        margin: auto;
     }
 
     #cont-5>div>img+p{
@@ -336,6 +338,7 @@
     #box-5{
         display: grid;
         margin-top:-100px;
+        margin: auto;
     }
     #img-5{
         display: grid;
@@ -350,6 +353,7 @@
         display: grid;
         width:90%;
         margin:auto;
+        /* margin-left: 20px; */
     }
     #b1-5{
         width:100%;
@@ -362,6 +366,7 @@
     }
     #footer-5>div{
         width:100%;
+        margin: auto;
     }
     #b1-5>#p-5{
        font-size: 32px;
@@ -371,5 +376,102 @@
         font-size: 16px;
         line-height: 24px;
     }
+    #b1-5{
+    
+        padding:0px;
+    }
+    #footer-5>div:first-child{
+        display: grid;
+    }
+    
+    
+
+
+}
+@media all and (min-width:481px) and (max-width:720px){
+
+    #head-5{
+        width:100%;
+        margin: auto;
+    }
+    #head-5>h1{
+        font-size: 40px;
+        line-height: 60px;
+    }
+    #head-5>h4{
+        font-size: 15px;
+        line-height: 22.5px;
+    }
+
+    #cont-5{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+        margin: auto;
+        
+        
+    }
+    #cont-5>div{
+        margin-bottom: -30px;
+        margin: auto;
+    }
+
+    #cont-5>div>img+p{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    #cont-5>div>p+p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    #box-5{
+        display: flex;
+        margin-top:-100px;
+        margin: auto;
+    }
+    #img-5{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width:50%;
+        margin:auto;
+    }
+    #tick-5{
+        width:50%;
+    }
+    #footer-5{
+        display:  grid;
+        grid-template-columns: repeat(2,1fr);
+        width:100%;
+        margin:auto;
+    }
+    #b1-5{
+        width:100%;
+        margin:auto;
+    }
+    #b2-5{
+        width:65%;
+        margin:auto;
+
+    }
+    #footer-5>div{
+        width:100%;
+        margin: auto;
+    }
+    #b1-5>#p-5{
+       font-size: 32px;
+       line-height: 48px;
+    }
+    #b1-5>p+p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    #b1-5{
+    
+        padding:0px;
+    }
+    #footer-5>div:first-child{
+        display: grid;
+    }
+   
 
 }
