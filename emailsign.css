@@ -106,3 +106,15 @@
     width:100px;
 }
 
+@media all and (min-width:320) and (max-width:800){
+
+    #container-5{
+        
+        
+    
+        display: grid;
+        gap:20px;
+        
+    }
+}
+
