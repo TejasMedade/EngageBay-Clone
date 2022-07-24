@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EngageBay - Signup</title>
+    <link rel="stylesheet" href="./login & signup.css">
+</head>
+
+<body>
+    <div id="main_cont">
+        <div id="form">
+            <img src="https://d2p078bqz5urf7.cloudfront.net/cloud/assets/img/engagebay.png" alt="">
+            <p>Get Started for FREE</p>
+            <form>
+                <label>Name</label>
+                <input type="text" placeholder="Name" id="name" required>
+                <label>Username</label>
+                <input type="text" placeholder="Work Email" id="username" required>
+                <label>Website URL</label>
+                <input type="url" placeholder="Website URL" id="website" required>
+                <label>Password</label>
+                <input type="password" placeholder="Password" id="password" required>
+                <input type="submit" value="SIGN UP" id="submit">
+                <div>
+                    <p>Forgot Password?</p>
+                    <p>Already have an account? <a href="./login.html">Login</a></p>
+                    <p><a href="https://www.engagebay.com/legal/privacy-policy" target="_blank">Privacy Policy </a></p>
+                </div>
+            </form>
+
+        </div>
+        <div id="back_svg">
+            <div>
+                <img src="https://cdn5.engagebay.com/img/testimonials/santiago.jpeg" alt="">
+                <p>A full-featured marketing platform. With this, you have all you need to get started and succeed.
+                    Having all in one platform make any marketer job much easier.</p>
+
+            </div>
+            <div>
+                <img src="./images/login-image.svg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script>
+
+    let flag = false;
+    document.querySelector("form").addEventListener("submit", signupfunc)
+    let singuparr = JSON.parse(localStorage.getItem("signupdata")) || []
+    function signupfunc() {
+        event.preventDefault()
+        let signobj = {
+            name: document.querySelector("#name").value,
+            username: document.querySelector("#username").value,
+            website: document.querySelector("#website").value,
+            password: document.querySelector("#password").value,
+
+        }
+        if (singuparr.length > 0) {
+            emailcheck(signobj.username, signobj)
+        }
+        if (flag == false) {
+            singuparr.push(signobj)
+            localStorage.setItem("signupdata", JSON.stringify(singuparr))
+            window.location.href = "login.html"
+            
+        }
+        flag = false
+    }
+    function emailcheck(data, signobj) {
+        let check = JSON.parse(localStorage.getItem("signupdata"))
+        check.forEach(function (el) {
+            if (el.username === data) {
+                let x = alert("Email already registered")
+                flag = true
+            }
+        })
+    }
+
+</script>

@@ -51,6 +51,15 @@
     background-color: transparent;
 }
 
+#query:focus {
+    border: none;
+    outline: none;
+}
+#query2:focus {
+    border: none;
+    outline: none;
+}
+
 #email>:last-child {
     background-color: #ff7342;
     border-radius: 30px;
@@ -73,7 +82,8 @@
     gap: 10px;
     font-size: 18px;
 }
-.fa-circle-check{
+
+.fa-circle-check {
     color: #6639b3;
 }
 
@@ -126,7 +136,8 @@
     border: 1px solid rgb(196, 189, 189);
     border-radius: 20px;
 }
-.top{
+
+.top {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -161,11 +172,12 @@
 
 .bottom>div {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 10px;
 }
-.bottom>div>div{
+
+.bottom>div>div {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -240,20 +252,23 @@
     font-size: 25px;
     padding: 10px 0px;
 }
-#views+hr{
+
+#views+hr {
     width: 70%;
     margin: auto;
 }
-#view_division{
+
+#view_division {
     display: grid;
     width: 80%;
     margin: auto;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-content: center;
     align-items: center;
     gap: 40px;
 }
-#image_art{
+
+#image_art {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -265,92 +280,110 @@
     border-bottom-right-radius: 20%;
     transform: skewX(-20deg);
 }
-#image_art>img{
+
+#image_art>img {
     width: 90%;
     transform: skewX(20deg);
 }
-#division{
+
+#division {
     width: 80%;
     margin: auto;
 }
-#division>h1{
+
+#division>h1 {
     margin: 60px 0px;
     color: #292d34;
     font-size: 35px;
 }
-#division>hr{
+
+#division>hr {
     width: 100px;
     border: 3px solid #7b68ee;
     border-radius: 5px;
 }
-#division>hr+p{
+
+#division>hr+p {
     margin: 40px 0;
     color: #677294;
 }
-#division>hr+p+p{
+
+#division>hr+p+p {
     margin: 40px 0;
     font-weight: bold;
-    color : #212529;
+    color: #212529;
 }
-#division>div{
+
+#division>div {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px 0px;
 }
-#division>div>li{
+
+#division>div>li {
     list-style: none;
 
 }
-#division>button{
+
+#division>button {
     padding: 10px 30px;
     color: #7b68ee;
     border: none;
     margin: 30px 0;
     background-color: #ffffff;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    ;
     font-weight: bold;
     border-radius: 5px;
 }
-#testimonials{
-    
-    background: linear-gradient(rgba(245,247,255, 0.5), rgba(245,247,255, 0.5)),url(/images/map.png);
+
+#testimonials {
+
+    background: linear-gradient(rgba(245, 247, 255, 0.5), rgba(245, 247, 255, 0.5)), url(/images/map.png);
     background-size: contain;
     z-index: -1;
     padding: 60px 0;
     background-position: center;
 }
-#testimonials>h1{
+
+#testimonials>h1 {
     text-align: center;
     padding-bottom: 50px;
 }
-.back-dot{
+
+.back-dot {
     width: 70%;
     margin: auto;
     text-align: center;
     z-index: 1000;
 }
-.back-dot>img{
+
+.back-dot>img {
     border-radius: 50%;
     margin: 20px;
     width: 25%;
 }
-.back-dot>img+p{
+
+.back-dot>img+p {
     color: #454545;
     line-height: 33px;
     letter-spacing: normal;
     font-size: 20px;
     font-style: italic;
 }
-.back-dot>h1+p{
+
+.back-dot>h1+p {
     margin: 10px;
     font-style: italic;
 
 }
-#service>h1{
+
+#service>h1 {
     text-align: center;
     margin: 50px auto;
 }
-#service>p{
+
+#service>p {
     text-align: center;
     color: #7b85a2;
     width: 60%;
@@ -358,15 +391,17 @@
     margin-bottom: 50px;
     font-size: 18px;
 }
-#service_card{
+
+#service_card {
     width: 80%;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(6, 1fr);
     gap: 20px;
 
 }
-#service_card>div{
+
+#service_card>div {
     height: 200px;
     display: flex;
     flex-direction: column;
@@ -377,29 +412,35 @@
     padding: 10px 0;
     text-align: center;
 }
-#service_card>div>img{
+
+#service_card>div>img {
     width: 50%;
 }
-#service_card>div>p{
+
+#service_card>div>p {
     font-weight: 500;
 }
-#getemail2{
+
+#getemail2 {
     background-color: #f5f7fb;
     margin: 30px 0;
     padding: 70px 0;
     text-align: center;
 }
-#getemail2>p{
+
+#getemail2>p {
     font-weight: bold;
     font-size: 25px;
     margin: auto;
 }
-#getemail2>p+p{
+
+#getemail2>p+p {
     margin: 20px auto;
     color: #9449fb;
     font-weight: bold;
     font-size: 30px;
 }
+
 #email2 {
     border: 2px solid #ff7342;
     border-radius: 50px;
@@ -435,7 +476,8 @@
     margin-top: 30px;
 
 }
-.two{
+
+.two {
     margin-left: -100px;
     width: 2300px;
 }
@@ -446,40 +488,48 @@
     gap: 10px;
     font-size: 18px;
 }
-#mainslider{
+
+#mainslider {
     display: flex;
     width: 4000px;
     overflow: hidden;
     animation: slide 15s linear infinite;
 }
-#mainslider:hover{
+
+#mainslider:hover {
     animation-play-state: paused;
 }
-#brand_slider{
+
+#brand_slider {
     text-align: center;
     overflow: hidden;
 }
-#brand_slider>h1{
+
+#brand_slider>h1 {
     font-size: 30px;
     margin: 20px auto;
 }
-#brand_slider>p{
+
+#brand_slider>p {
     font-size: 20px;
     margin: 20px auto;
     color: #7b85a2;
 }
-.logoslide{
+
+.logoslide {
     display: grid;
     row-gap: 40px;
     width: 2000px;
     margin: 50px auto;
 }
-.logoslide>div{
+
+.logoslide>div {
     display: flex;
     gap: 20px;
     justify-content: space-evenly;
 }
-.logoslide>div>div{
+
+.logoslide>div>div {
     padding: 15px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
     border-radius: 50%;
@@ -488,18 +538,20 @@
     justify-content: center;
 
 }
-.logoslide>div>div>img{
+
+.logoslide>div>div>img {
     width: 50px;
 }
+
 @keyframes slide {
-    0%{
-       
-    }
-    100%{
+    0% {}
+
+    100% {
         margin-left: -2000px;
     }
 }
-#seemore{
+
+#seemore {
     padding: 15px 40px;
     margin: 50px auto;
     color: #6639b3;
@@ -508,7 +560,8 @@
     border-radius: 10px;
     font-size: 18px;
 }
-#seemore:hover{
+
+#seemore:hover {
     background-color: #6639b3;
     color: white;
 }
@@ -518,4 +571,3 @@
 /* @media all (max-width : 14450) {
     
 } */
-

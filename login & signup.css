@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+#main_cont{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 100vw;
+    height: 100vh;
+    
+}
+#form{
+    padding: 30px;
+    width: 100%;
+    display: grid;
+    align-content: flex-start;
+    
+
+}
+#form>img{
+    width: 50%;
+    margin: auto;
+}
+#form>p{
+    font-size: 35px;
+    margin: 20px auto;
+    text-align: center;
+}
+#form>form{
+    display: grid;
+    gap: 10px;
+    text-align: left;
+}
+#form>form>input:not(#submit){
+    padding: 15px;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    margin-bottom: 20px;
+   
+}
+#submit{
+    margin: 10px 0;
+    background-color: #f2603e;
+    color: white;
+    padding: 10px 0;
+    font-size: 20px;
+    border-radius: 0px;
+    letter-spacing: 1px;
+    border: 1px solid rgb(242,96,62);
+}
+#submit+div>p{
+    text-align: center;
+    line-height: 20px;
+    color: grey;
+    
+}
+#submit+div a{
+    text-decoration: none;
+    color: grey;
+}
+
+#back_svg{
+    background: linear-gradient(145deg, rgba(43,31,238,1) 0%, rgba(44,134,179,1) 59%, rgba(6,198,237,1) 100%);
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    padding: 20px 0;
+}
+#back_svg>:first-child{
+    display: flex;
+    width: 80%;
+    margin-left: 15%;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 0 10px;
+    gap: 20px;
+    background: linear-gradient(145deg, rgba(31,117,238,1) 0%, rgba(44,134,179,1) 56%, rgba(6,198,237,1) 100%);
+}
+#back_svg>:first-child>img{
+    border-radius: 50%;
+    border: 5px solid grey;
+   
+}
+#back_svg>:last-child>img{
+    
+    width: 70%;
+}
+#back_svg>:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media all and (min-width:1250px) {
+    #form{
+        width: 400px;
+        margin: 0 auto;
+    }
+}
+@media all and (max-width:950px) {
+    #back_svg{
+        visibility: hidden;
+    }
+    #main_cont{
+        grid-template-columns: 1fr;
+    }
+    #form{
+        width: 450px;
+        margin: auto;
+    }
+   
+}
