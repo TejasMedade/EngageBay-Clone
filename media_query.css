@@ -1,0 +1,103 @@
+@media all and (max-width:1250px){
+    #image_art{
+        width: 90%;
+    }
+    #service_card{
+        width: 90%;
+    }
+    .background_svg {
+        width: 90%;
+    }
+    #container-2{
+        width: 90%;
+    }
+    #view_division{
+        width: 90%;
+    }
+}
+
+@media all and (max-width:1040px){
+    
+    #service_card{
+        width: 80%;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .top{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .bottom>div {
+        grid-template-columns: 1fr
+    }
+    #container-2{
+        width: 70%;
+    }
+    #tags {
+        width: 80%;
+        gap: 10px;
+        flex-wrap: wrap;
+       
+    }
+}
+@media all and (max-width:750px){
+   #image_art{
+    display: none;
+   }
+   #view_division{
+    grid-template-columns: 1fr;
+   }
+   #service_card{
+    width: 80%;
+    grid-template-columns: repeat(3,1fr);
+}
+#landing>h1,#landing2>h1{
+    width: 80%;
+    font-size: 50px;
+}
+#email,#email2{
+    width: 90%;
+}
+#container-2{
+    grid-template-columns: 1fr;
+    width: 80%;
+}
+#tabs{
+    width: 90%;
+}
+#division>div{
+    grid-template-columns: 1fr;
+}
+
+}
+@media all and (max-width:570px){
+    #service_card{
+        width: 70%;
+        grid-template-columns: repeat(2,1fr);
+    }
+    #landing>h1 , #getemail2>p{
+        width: 80%;
+        font-size: 25px;
+    }
+    #email,#email2{
+        width: 95%;
+    }
+    #email>input,#email2>input {
+        font-size: 15px;
+        padding-left: 10px;
+
+    }
+    #email>:last-child ,#email2>:last-child {
+        background-color: #ff7342;
+        padding: 5px;
+    }
+    #check_list,#check_list2 {
+        width: 90%;
+    }
+    #check_list>div,#check_list2>div{
+
+        font-size: 15px;
+        justify-content: space-evenly;
+    }
+}
+
+
