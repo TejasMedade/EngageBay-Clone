@@ -362,4 +362,4 @@ let testimonial = ()=>{
 </div>`
 }
 
- export { email2 , review_tags };
+ export { email2 , review_tags, brandsstrip,logoslider,services,testimonial };
