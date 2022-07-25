@@ -66,12 +66,19 @@
 #b1-5>input{
     font-weight: 400;
     font-size:16px;
-    color:#bfc2c4;
+    /* color:#bfc2c4; */
     line-height: 24px;
-
+    border: 1px solid black;
+    border-radius: 5px;
     
     
 }
+
+#b2-5>input::placeholder {
+    color: black;
+    padding-left: 3%;
+}
+
 #b2-5{
     width:50%;
     

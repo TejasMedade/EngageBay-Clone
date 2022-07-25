@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Segoe UI";
 }
 
 #landing {
@@ -340,7 +340,7 @@
 #testimonials {
 
     background: linear-gradient(rgba(245, 247, 255, 0.5), rgba(245, 247, 255, 0.5)), url(/images/map.png);
-    background-size: contain;
+    background-size: cover;
     z-index: -1;
     padding: 60px 0;
     background-position: center;
@@ -362,6 +362,7 @@
     border-radius: 50%;
     margin: 20px;
     width: 25%;
+    margin: auto;
 }
 
 .back-dot>img+p {
