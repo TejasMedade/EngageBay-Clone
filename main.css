@@ -256,15 +256,21 @@
 
 }
 .center-4{
+    /* border: 1px solid red; */
     text-align: center;
     margin-left: -35%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .center-4>h1+p{
-    margin-top: -50px;
-    margin-bottom: 40px;
     color: #1550AF;
 }
 .bold-4+h1{
+    /* border: 1px solid red; */
+    font-size: 28px;
     color: #1550AF;
     font-weight: 100;
     margin-right: 50px;
@@ -451,6 +457,7 @@
     color: #7C9B10;
     margin-top: -10px;
     font-weight: 500;
+    font-size: 28px;    
 }
 .compare-4-up-div-green{
     width: auto;
