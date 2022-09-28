@@ -30,6 +30,8 @@ Designed the clone with the static features within the stipulated time. Used and
 
 - Live Demo : https://fabulous-kleicha-168593.netlify.app/ 
 
+![Website Demo](https://user-images.githubusercontent.com/105907169/192888203-f71f658b-821a-485b-83af-6859d0fcd9d6.gif)
+
 
 
 ## Screenshots
