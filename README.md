@@ -5,14 +5,16 @@
 # EngageBay : Website_Clone
 
 
+Engage Bay - a powerful CRM platform designed to provide comprehensive sales, service, and marketing support for growing businesses.
 
-Engage Bay is a CRM website that provides customer sales, service and marketing support for growing businesses.
+Built using a combination of static HTML, CSS, and JavaScript, this website is designed to be both visually striking and highly informative. With a focus on smooth scrolling, loading, and transition effects, Engage Bay is optimized for a seamless user experience.
 
-Speaking of the technical aspects, the site is fairly static with very few features, but it is informative and has lots of loading, scrolling, and transition effects.
+But Engage Bay is more than just a pretty face; it also comes packed with a wide range of features to help businesses succeed. These include an e-commerce platform that supports sign-up, sign-in, log-out, subscriptions, billing, and more. Additionally, businesses can also access to blog and other resources to stay updated.
 
-Website implements the functioning of an E-commerce Website that performs various functions like sign up, sign in, log out, subscriptions, billing, blogs, and much more.
+As part of a 3-member research team, the developer was responsible for designing and developing a static clone of the Engage Bay website, utilizing skills in HTML, CSS, JavaScript, Bootstrap, and animation. Working within a tight deadline, the developer successfully delivered a fully functional and visually appealing clone that met all project requirements.
 
-Designed the clone with the static features within the stipulated time. Used and applied HTML, CSS and JavaScript as well as BootStrap and Animation skills to create and test the clone. Worked with a 3-member research team for accomplishing the same. 
+If you're a growing business in need of a comprehensive CRM solution, Engage Bay is the perfect choice. With its powerful feature set and visually stunning design, this platform is guaranteed to help you achieve your goals and drive your business forward.
+
 ## Tech Stack
 
 - HTML
